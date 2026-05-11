@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>精神内耗鼓励屋</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="page-container">
+    <header class="hero">
+      <div class="hero-text">
+        <h1>摆脱精神内耗，重新点燃奋斗之心</h1>
+        <p>在内卷和压力中停下来，听一句古人的鼓励，让今天的你变得更坚定。</p>
+      </div>
+      <div class="hero-card">
+        <p>输入你的心情或当前压力，系统会为你推荐一句古代名言与一句现代鼓励。</p>
+        <textarea id="userMessage" rows="4" placeholder="我现在感觉……"></textarea>
+        <button id="sendButton">获取鼓励</button>
+      </div>
+    </header>
+
+    <section class="result-section" id="resultSection" hidden>
+      <h2>给你的鼓励</h2>
+      <div class="result-card">
+        <p class="quote" id="quoteText"></p>
+        <p class="source" id="quoteSource"></p>
+        <p class="advice" id="adviceText"></p>
+      </div>
+    </section>
+
+    <section class="tips-section">
+      <h2>为什么要积极面对</h2>
+      <ul>
+        <li>精神内耗会消耗你的注意力和行动力。</li>
+        <li>改变心态，从一句话、一件小事开始。</li>
+        <li>奋斗不是为了“完美”，而是让生命更有意义。</li>
+      </ul>
+    </section>
+  </div>
+  <script src="/static/script.js"></script>
+</body>
+</html>
